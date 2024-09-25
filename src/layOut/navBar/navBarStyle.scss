@@ -1,0 +1,44 @@
+.navBar {
+  padding: 30px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  .links {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    a {
+      display: inline-block;
+      text-align: center;
+      width: 150px;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      background-color: rgba(255, 255, 255, 0.176);
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      border: 1px solid white;
+    }
+    .logo {
+        width: 80px;
+        height: 80px;
+        img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+}
+    }
+  }
+}
